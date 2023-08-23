@@ -31,13 +31,16 @@
 *.out
 *.app
 
-# CMake generated files
+# CMake files
 CMakeCache.txt
 CMakeFiles/
+CMakeLists.txt.user
+CMakeUserPresets.json
+.cmake/
+build/
 Makefile
 bin/
 cmake_install.cmake
-CMakeLists.txt.user
 CMakeScripts
 Testing
 install_manifest.txt
@@ -51,3 +54,7 @@ conanbuildinfo.cmake
 conanbuildinfo.txt
 conaninfo.txt
 graph_info.json
+conan/
+
+# VS Code
+.vscode/
